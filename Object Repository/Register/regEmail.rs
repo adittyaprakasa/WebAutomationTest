@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>regEmail</name>
+   <tag></tag>
+   <elementGuidId>8feeb0a3-f5fd-4721-a9f2-baf693298fff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='reg_email']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='reg_email']</value>
+      <webElementGuid>f21b27f0-4d1d-4675-ab7b-8f1b862043a8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

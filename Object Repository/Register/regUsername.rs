@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>regUsername</name>
+   <tag></tag>
+   <elementGuidId>4676ff7b-1890-4bc9-8b50-b0d09398317b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='reg_username']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='reg_username']</value>
+      <webElementGuid>579fc151-231a-46aa-8976-815b55eb8619</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

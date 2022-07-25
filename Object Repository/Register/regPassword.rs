@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>regPassword</name>
+   <tag></tag>
+   <elementGuidId>8327c962-8c9a-479a-a397-fc0161c92969</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='reg_password']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='reg_password']</value>
+      <webElementGuid>2d95b491-791d-4211-aac6-1200fc521e0a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

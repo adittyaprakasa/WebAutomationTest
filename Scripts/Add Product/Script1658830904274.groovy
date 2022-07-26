@@ -17,27 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Search/btnSearch'))
 
-WebUI.navigateToUrl('https://shop.demoqa.com/')
+WebUI.setText(findTestObject('Search/txtSearch'), 'Shirt')
 
-WebUI.maximizeWindow()
+WebUI.sendKeys(findTestObject('Search/txtSearch'), Keys.chord(Keys.ENTER))
 
-WebUI.scrollToPosition(0, 1000)
+WebUI.click(findTestObject('Product/product1'))
 
-WebUI.click(findTestObject('Register/btnMyAcount'))
+WebUI.selectOptionByIndex(findTestObject('Product/dropdownColor'), 1)
 
-username = 'juni'
+WebUI.selectOptionByIndex(findTestObject('Product/dropdownSize'), 1)
 
-email = 'juni@gmail.com'
+WebUI.click(findTestObject('Product/btnAddCart'))
 
-password = 'Password1234567890!'
+WebUI.click(findTestObject('Search/btnSearch'))
 
-WebUI.setText(findTestObject('Login/txtUsername'), email)
+WebUI.setText(findTestObject('Search/txtSearch'), 'Shirt')
 
-WebUI.setText(findTestObject('Login/txtPassword'), password)
+WebUI.sendKeys(findTestObject('Search/txtSearch'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Login/btnLogin'))
+WebUI.click(findTestObject('Product/product2'))
 
-WebUI.verifyElementText(findTestObject('Register/fromYourAccount'), 'From your account dashboard you can view your recent orders, manage your shipping and billing addresses, and edit your password and account details.')
+WebUI.selectOptionByIndex(findTestObject('Product/dropdownColor'), 1)
+
+WebUI.selectOptionByIndex(findTestObject('Product/dropdownSize'), 1)
+
+WebUI.click(findTestObject('Product/btnAddCart'))
 

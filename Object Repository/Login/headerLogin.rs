@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>headerLogin</name>
+   <tag></tag>
+   <elementGuidId>526f95d6-74f9-4282-aaac-0726c15522cb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h2[normalize-space()='Login']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//h2[normalize-space()='Login']</value>
+      <webElementGuid>5537aad9-ce26-475d-9506-62e22a068c03</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
